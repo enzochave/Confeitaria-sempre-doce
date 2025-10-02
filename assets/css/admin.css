@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Libertinus Serif Display", system-ui;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+body {
+    background-image:  url("..//img/bolo-capa-3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}

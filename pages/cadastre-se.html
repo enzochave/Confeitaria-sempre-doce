@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-cadastre-se</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/admin.css">
+</head>
+<body>
+  
+    <div>
+          <h1>Realize seu cadastro</h1>
+        
+          <input type="text" id="nome" placeholder="Nome completo">
+          <br><br>
+        
+          <input type="email" id="email" placeholder="Email">
+          <br><br>
+
+        
+          <input type="password" id="password" placeholder="Senha">
+          <br><br>
+          
+          <input type="password" id="confirma-password" placeholder="Confirme senha">
+          <br><br>
+          <input type="checkbox" id="Exibir-senha" onclick="toggleSenha()"> Exibir senhas
+          <br><br>
+
+          <button onclick="cadastrarUsuario()">Cadastre-se</button>
+          <br><br>
+          <a href="/pages/admin.html">volta a tela de login</a>
+    </div>
+</body>
+<script src="../assets/js/cadastre-se.js"></script>
+</html>

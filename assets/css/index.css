@@ -16,9 +16,25 @@ body {
 }
 
 header{
-    background-color: #f8b400;
+    display: flex;
+    background-color: #FFD1D7;
     color: white;
     padding: 20px;
+    border: 5px solid #333;
+}
+
+.link-admin {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: aliceblue;
+    padding-right: 20px;
+}
+
+.link-admin:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 header h1 {
@@ -52,4 +68,50 @@ nav ul li a:hover {
     width: 100%;
     object-fit: cover;
     height: 300px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-cardapio-item {
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-cardapio h2 {
+font-family: "Libertinus Serif Display", system-ui;
+text-align: center;
+font-size: 50px;
+}
+
+footer {
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.logo img {
+width: 200px;
+margin-left: 30px;
 }

@@ -9,7 +9,7 @@ function cadastrarUsuario() {
     if (password.value == confirmaPassword.value) {
         //Cadastrar no localStorage
 
-        let lista = window.localStorage.getItem('usuario')
+        let lista = window.localStorage.getItem('usuarios')
 
         if (lista == undefined) {
             lista = []
@@ -34,7 +34,7 @@ function cadastrarUsuario() {
             }
 
             listaE.push(usuarioA)
-
+            console.log(listaE)
             window.localStorage.setItem('usuarios', JSON.stringify(listaE))
             alert('usuario cadastrado')
 

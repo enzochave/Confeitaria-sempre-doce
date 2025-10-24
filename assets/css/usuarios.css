@@ -1,0 +1,23 @@
+table {
+     width: 100%;
+     font-size: 25px;
+     padding: 50px;
+}
+
+th, td {
+     border: 1px black solid;
+     padding: 12px;
+     text-align: center;
+}
+
+tr:nth-child(even) {
+     background-color: rgba(255, 255, 255, 0.297);
+}
+
+tr:nth-last-child(odd) {
+     background-color:white;
+}
+
+tr:hover {
+     background-color: grey;
+}

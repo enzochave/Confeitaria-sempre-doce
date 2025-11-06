@@ -1,0 +1,17 @@
+.img-cardapio {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.menu-cardapio-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.menu-cardapio-item {
+  margin-bottom: 20px;
+}
